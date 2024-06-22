@@ -1,0 +1,72 @@
+.centered { 
+    margin-inline: auto;
+    width: 60%;
+    max-width: 1000px;
+}
+
+.nav {
+    margin-inline: auto;
+    width: 75%;
+    max-width: 1300px;
+    
+}
+
+.bold_header {
+    font-size: 35px;
+    font-family: 'Inter';
+    margin-bottom: 0px;
+    font-weight: 900;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    
+}
+
+li {
+    display: inline;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    font-family: 'Inter';
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.large_header {
+    font-size: 80px;
+    font-family: 'Inter';
+    margin-bottom: 0px;
+}
+
+.blurb {
+    font-size: 20px;
+    font-family: 'Inter';
+    padding-bottom: 10px;
+    text-wrap: wrap;
+}
+
+.blurb_nopad {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Inter';
+    text-wrap: wrap;
+}
+
+.indent {
+    padding-left:20px;
+}
+
+.inline_anchor {
+    display: inline;
+    padding: 0px;
+    font-family: 'Inter';
+    font-size: 20px;
+    text-decoration:underline;
+    color: black;
+}
